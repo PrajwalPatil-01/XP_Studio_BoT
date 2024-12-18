@@ -4,19 +4,19 @@ import time
 class Config(object):
 
     # Get a bot token from botfather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7788647903:AAGM1lmOIGTlDCPWQi6EHMQJWv_LOgZG9Es")
 
 
     # Get from my.telegram.org (or @UseTGXBot)
-    API_ID = int(os.environ.get("API_ID", 12345))
+    API_ID = int(os.environ.get("API_ID", "28690893"))
 
 
     # Get from my.telegram.org (or @UseTGXBot)
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = os.environ.get("API_HASH", "c214f988aa1ac0b998ace0b7cd0e215f")
     
     
     # Database URL from https://cloud.mongodb.com/
-    DATABASE_URI = os.environ.get("DATABASE_URI", "")
+    DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://XP_Studio_BoT:<XP_Studio_BoT>@cluster0.rji6t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 
     # Your database name from mongoDB
